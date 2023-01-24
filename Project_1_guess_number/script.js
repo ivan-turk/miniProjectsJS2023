@@ -66,6 +66,7 @@ if (!guess){
     } else {
      displayMessage('⚡ GAME OVER, Ponovi igru');
       document.querySelector('.score').textContent = '0';
+      document.querySelector('body').style.backgroundColor = '#AA3535';
     };
   };
 });
