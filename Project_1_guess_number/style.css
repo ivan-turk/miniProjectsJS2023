@@ -125,15 +125,12 @@ h1 {
 
 @media (max-width: 1024px){
 
-  body{
-    width: 100%;
-    height: auto;
-  }
   .again{
     top: 20%;
     left: 25%;
     right: 25%;
     font-size: 1.5rem;
+    border-radius: 10px;
   }
 
   .between{
@@ -163,6 +160,7 @@ h1 {
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 50%);
+    border-radius: 10px;
   }
 
   .guess{
@@ -194,10 +192,11 @@ h1 {
 
 .check{
   position:absolute;
-  top: 71%;
+  top: 73%;
   left: 25%;
   right: 25%;
   font-size: 1.5rem;
+  border-radius: 10px;
 }
 .label-score{
   position: absolute;
@@ -214,15 +213,12 @@ h1 {
 }
 }
 @media (max-width: 768px){
-  body{
-    width: 100%;
-    height: auto;
-  }
   .again{
     top: 20%;
     left: 25%;
     right: 25%;
     font-size: 1.5rem;
+    border-radius: 10px;
   }
 
   .between{
@@ -252,6 +248,7 @@ h1 {
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 50%);
+    border-radius: 10px;
   }
 
   .guess{
@@ -283,10 +280,11 @@ h1 {
 
 .check{
   position:absolute;
-  top: 71%;
+  top: 73%;
   left: 25%;
   right: 25%;
   font-size: 1.5rem;
+  border-radius: 10px;
 }
 .label-score{
   position: absolute;
@@ -303,15 +301,12 @@ h1 {
 }
 }
 @media (max-width: 640px){
-  body{
-    width: 100%;
-    height: auto;
-  }
   .again{
     top: 20%;
     left: 25%;
     right: 25%;
     font-size: 1.5rem;
+    border-radius: 10px;
   }
 
   .between{
@@ -341,6 +336,7 @@ h1 {
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 50%);
+    border-radius: 10px;
   }
 
   .guess{
@@ -372,10 +368,11 @@ h1 {
 
 .check{
   position:absolute;
-  top: 71%;
+  top: 73%;
   left: 25%;
   right: 25%;
   font-size: 1.5rem;
+  border-radius: 10px;
 }
 .label-score{
   position: absolute;
@@ -394,15 +391,12 @@ h1 {
 
 
 @media (max-width: 480px){
-  body{
-    width: 100%;
-    height: auto;
-  }
   .again{
     top: 20%;
     left: 25%;
     right: 25%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
   }
 
   .between{
@@ -412,7 +406,7 @@ h1 {
   }
 
   h1{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     position: absolute;
     width: 100%;
@@ -424,7 +418,7 @@ h1 {
   .number{
     background: #eee;
     color: #333;
-    font-size: 4rem;
+    font-size: 3rem;
     width: 15rem;
     padding: 3rem 0rem;
     text-align: center;
@@ -432,6 +426,7 @@ h1 {
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 50%);
+    border-radius: 10px;
   }
 
   .guess{
@@ -440,7 +435,7 @@ h1 {
     border: 4px solid #eee;
     font-family: inherit;
     color: inherit;
-    font-size: 5rem;
+    font-size: 3rem;
     padding: 3rem 0rem;
     width: 25rem;
     text-align: center;
@@ -463,14 +458,15 @@ h1 {
 
 .check{
   position:absolute;
-  top: 71%;
+  top: 70%;
   left: 25%;
   right: 25%;
   font-size: 1.2rem;
+  border-radius: 10px;
 }
 .label-score{
   position: absolute;
-  top: 83%;
+  top: 85%;
   left: 10%;
   font-size: 1.2rem;
 }
